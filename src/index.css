@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Quill editor styles */
+.ql-editor {
+  min-height: 300px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.ql-toolbar.ql-snow {
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #e2e8f0;
+}
+
+.ql-container.ql-snow {
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #e2e8f0;
+  font-family: inherit;
+}
